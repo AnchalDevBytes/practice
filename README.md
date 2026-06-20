@@ -603,5 +603,3 @@ Execution Order:-
 Parent has `console.log('parent')`, child1 has `console.log('child1')`, grandchild has `console.log('child2')`. Output: `child2, child1, parent`
 
 Why: React commits children before parents. useEffect fires after commit, bottom-up (deepest first). Child must finish mounting before parent's "post-mount" effect fires.
-
-# Q4. 

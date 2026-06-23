@@ -24,7 +24,7 @@ This repository contains my notes and solutions for:
 
 ## DSA
 
-[Open DSA Notes](./dsa/README.md)
+[Open DSA Notes](./DSA/README.md)
 
 ---
 

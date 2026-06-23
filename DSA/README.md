@@ -18,5 +18,3 @@
 
 [Sorting Problems](./sorting/README.md)
 
-[JavaScript Implementations](./implementations/README.md)
-

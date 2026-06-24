@@ -6,15 +6,15 @@
 
 [HashMap/Set Problems](./hashmap&sets/README.md)
 
-[Two Pointer Problems](./twoPointer/README.md)
+[Two Pointer Problems](./twoPointers/README.md)
 
-[Sliding Window Problems](./slidingWindow/README.md)
+[Sliding Window Problems](./slidingWindows/README.md)
 
-[Binary Search Problems](./binarySearch/README.md)
+[Binary Search Problems](./binarySearchs/README.md)
 
-[Stack Problems](./stack/README.md)
+[Stack Problems](./stacks/README.md)
 
-[Prefix Problems](./prefix/README.md)
+[Prefix Problems](./prefixs/README.md)
 
-[Sorting Problems](./sorting/README.md)
+[Sorting Problems](./sortings/README.md)
 

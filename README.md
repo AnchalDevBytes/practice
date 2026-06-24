@@ -27,7 +27,3 @@ This repository contains my notes and solutions for:
 [Open DSA Notes](./DSA/README.md)
 
 ---
-
-## Machine Coding
-
-[Open Machine Coding](./ui-machine-coding/README.md)

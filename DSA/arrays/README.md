@@ -36,14 +36,3 @@
 29. ★ [Insert Interval](./insertInterval.md) - **Most Important 30**
 30. [Gas Station](./gasStation.md)
 
-## Additional Important Topics
-
-31. [Flatten Nested Array](./flattenNestedArray.md)
-32. [Array Chunking](./arrayChunking.md)
-33. [Deep Flatten Array](./deepFlattenArray.md)
-34. [Remove Duplicates from Array](./removeDuplicatesFromArray.md)
-35. [Group Array By Property](./groupArrayByProperty.md)
-36. [Count Frequency of Elements](./countFrequencyOfElements.md)
-37. [Find Second Largest Number](./findSecondLargestNumber.md)
-38. [Find Union of Arrays](./findUnionOfArrays.md)
-

@@ -3,53 +3,53 @@
 ## ★ Most Important 30 Questions (Marked with ★ in each section)
 
 ### Arrays (9 questions)
-- ★ Two Sum
-- ★ Contains Duplicate
-- ★ Move Zeroes
-- ★ Find Pivot Index
-- ★ Product of Array Except Self
-- ★ Maximum Subarray
-- ★ Sort Colors
-- ★ Merge Intervals
-- ★ Insert Interval
+- [★ Two Sum](./DSA/arrays/twoSum.md)
+- [★ Contains Duplicate](./DSA/arrays/containsDuplicate.md)
+- [★ Move Zeroes](./DSA/arrays/moveZeroes.md)
+- [★ Find Pivot Index](./DSA/arrays/findPivotIndex.md)
+- [★ Product of Array Except Self](./DSA/arrays/productOfArrayExceptSelf.md)
+- [★ Maximum Subarray](./DSA/arrays/maximumSubarray.md)
+- [★ Sort Colors](./DSA/arrays/sortColors.md)
+- [★ Merge Intervals](./DSA/arrays/mergeIntervals.md)
+- [★ Insert Interval](./DSA/arrays/insertInterval.md)
 
 ### Strings (6 questions)
-- ★ Reverse Words in String
-- ★ Valid Anagram
-- ★ Valid Palindrome
-- ★ Longest Substring Without Repeating Characters
-- ★ Decode String
-- ★ Minimum Window Substring
+- [★ Reverse Words in String](./DSA/strings/reverseWordsInString.md)
+- [★ Valid Anagram](./DSA/strings/validAnagram.md)
+- [★ Valid Palindrome](./DSA/strings/validPalindrome.md)
+- [★ Longest Substring Without Repeating Characters](./DSA/strings/longestSubstringWithoutRepeatingCharacters.md)
+- [★ Decode String](./DSA/strings/decodeString.md)
+- [★ Minimum Window Substring](./DSA/strings/minimumWindowSubstring.md)
 
 ### Binary Search (5 questions)
-- ★ Binary Search
-- ★ Search Insert Position
-- ★ Search in Rotated Sorted Array
-- ★ Find Peak Element
-- ★ Koko Eating Bananas
+- [★ Binary Search](./DSA/binarySearchs/binarySearch.md)
+- [★ Search Insert Position](./DSA/binarySearchs/searchInsertPosition.md)
+- [★ Search in Rotated Sorted Array](./DSA/binarySearchs/searchInRotatedSortedArray.md)
+- [★ Find Peak Element](./DSA/binarySearchs/findPeakElement.md)
+- [★ Koko Eating Bananas](./DSA/binarySearchs/kokoEatingBananas.md)
 
 ### Stacks (3 questions)
-- ★ Valid Parentheses
-- ★ Daily Temperatures
-- ★ Decode String
+- [★ Valid Parentheses](./DSA/stacks/validParentheses.md)
+- [★ Daily Temperatures](./DSA/stacks/dailyTemperatures.md)
+- [★ Decode String](./DSA/stacks/decodeString.md)
 
 ### Two Pointers (3 questions)
-- ★ Valid Palindrome
-- ★ 3Sum
-- ★ Container With Most Water
+- [★ Valid Palindrome](./DSA/twoPointers/validPalindrome.md)
+- [★ 3Sum](./DSA/twoPointers/threeSum.md)
+- [★ Container With Most Water](./DSA/twoPointers/containerWithMostWater.md)
 
 ### Sliding Windows (3 questions)
-- ★ Longest Substring Without Repeating Characters
-- ★ Sliding Window Maximum
-- ★ Minimum Window Substring
+- [★ Longest Substring Without Repeating Characters](./DSA/slidingWindows/longestSubstringWithoutRepeatingCharacters.md)
+- [★ Sliding Window Maximum](./DSA/slidingWindows/slidingWindowMaximum.md)
+- [★ Minimum Window Substring](./DSA/slidingWindows/minimumWindowSubstring.md)
 
 ### HashMap & Sets (3 questions)
-- ★ Group Anagrams
-- ★ Top K Frequent Elements
-- ★ Longest Consecutive Sequence
+- [★ Group Anagrams](./DSA/hashmap&sets/groupAnagrams.md)
+- [★ Top K Frequent Elements](./DSA/hashmap&sets/topKFrequentElements.md)
+- [★ Longest Consecutive Sequence](./DSA/hashmap&sets/longestConsecutiveSequence.md)
 
 ### Sorting (1 question)
-- ★ Sort Colors
+- [★ Sort Colors](./DSA/sorting/sortColors.md)
 
 ---
 
@@ -196,19 +196,18 @@
 - ★ Sort Colors
 - Largest Number
 - Top K Frequent
+
+---
+
+## Study Strategy
+
+1. **Start with the 30 Most Important Questions** - These are marked with ★
+2. **Master Each Data Structure** - Complete all problems in one category before moving to the next
+3. **Build Implementations** - Understand how core JavaScript functions work
+4. **Practice Additiona
 - Merge Intervals
 - Meeting Rooms
 - Meeting Rooms II
-
-### JavaScript Implementations (NEW)
-- **Implement Array.prototype.map**
-- **Implement Array.prototype.filter**
-- **Implement Array.prototype.reduce**
-- **Implement Deep Clone**
-- **Implement Object Flattening**
-- **Implement Debounce**
-- **Implement Throttle**
-- **Implement Memoize**
 
 ---
 

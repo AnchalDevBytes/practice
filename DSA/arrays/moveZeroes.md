@@ -1,4 +1,4 @@
-```base
+```bash
 <!-- Moves zeros to the end -->
 
 var moveZeroes = function(nums) {

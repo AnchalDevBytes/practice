@@ -22,3 +22,28 @@ var insert = function(intervals, newInterval) {
 };
 
 ```
+
+```bash
+
+export default function mergeNewInterval(intervals, newInterval) {
+  const result = [];
+  let [start, end] = newInterval;
+
+  for(const [currStart, currEnd] of intervals) {
+    if(currEnd < start) {  // if curr interval is completely before new interval
+      result.push([currStart, currEnd]);
+    } else if(currStart > end) {  // if curr interval is completelt after new interval
+      result.push([start, end]);
+      start = currStart;
+      end = currEnd;
+    } else {  // ovelapping intervals
+      start = Math.min(start, currStart);
+      end = Math.max(end, currEnd);
+    }
+  }
+
+  result.push([start, end]);
+  return result;
+}
+
+```

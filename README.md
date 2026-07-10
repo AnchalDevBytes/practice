@@ -27,3 +27,11 @@ This repository contains my notes and solutions for:
 [Open DSA Notes](./DSA/README.md)
 
 ---
+
+## BFE
+
+[Open BFE Notes](./BFE/README.md)
+
+## GFE
+
+[Open GFE Notes](./GFE/README.md)

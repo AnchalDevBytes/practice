@@ -18,3 +18,10 @@ This repository contains Great Frontend Engineer (GFE) questions and solutions.
 10. [accordion](./accordion.md)
 11. [typeUtils](./typeUtils.md)
 12. [promise.all](./promiseAll.md)
+13. [deepClone](./deepClone.md)
+
+
+## 5 Javascript Concepts Question 
+
+1. [Event Emitters](./eventEmitters.md)
+2. [Nested Comments](./nestedComments.md)

@@ -1,19 +1,43 @@
-Nested Comment.
-
 ```bash
+
+# suppose we have comments like this :- 
+
+# [
+#   {
+#     id: 1,
+#     text: "Hello",
+#     children: [
+#       {
+#         id: 2,
+#         text: "Hi",
+#         children: [
+#           {
+#             id: 3,
+#             text: "Nice!",
+#             children: [
+#               {
+#                 id: 4,
+#                 text: "Exactly!"
+#               }
+#             ]
+#           }
+#         ]
+#       }
+#     ]
+#   }
+# ]
 
 function renderComment(comment) {
     const div = document.createElement("div");
 
     div.className = "comment";
-    div.textContent = comment.text;
+    div.texContent = comment.text;
 
-    if(comment.child.length > 0) {
+    if(comment.children.length > 0) {
+
         const childContainer = document.createElement("div");
 
-        childContainer.className = "child";
-        
-        for(const child of comment.child) {
+        for(const child of comment.children) {
             childContainer.appendChild(renderComment(child));
         }
 
@@ -22,6 +46,8 @@ function renderComment(comment) {
 
     return div;
 }
+
+# Rendering all root comments we will need other functions
 
 function renderComments(comments, container) {
     const fragment = document.createDocumentFragment();
@@ -32,5 +58,11 @@ function renderComments(comments, container) {
 
     container.appendChild(fragment);
 }
+
+
+# Usage:- 
+
+const root = document.getElementById("root");
+renderComments(comments, root);
 
 ```

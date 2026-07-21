@@ -18,4 +18,18 @@ export default function throttle(func, wait) {
     }
 }
 
+
+export default function throttleTimeBased(func, delay) {
+    let lastExecuted = 0;
+
+    return function (...args) {
+        const now = Date.now();
+
+        if (now - lastExecuted >= delay) {
+            lastExecuted = now;
+            func(...args);
+        }
+    };
+}
+
 ```

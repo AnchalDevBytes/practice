@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce & Throttle</title>
+</head>
+
+<body>
+    <button id="debounceBtn">Debounced</button>
+    <button id="throttleBtn">Throttled</button>
+
+    <script>
+        function debounce(func, delay) {
+            let timer;
+
+            return function (...args) {
+                clearTimeout(timer);
+
+                timer = setTimeout(() => {
+                    func(...args);
+                }, delay);
+            }
+        }
+
+        function throttle(func, delay) {
+            let canRun = true;
+
+            return function (...args) {
+                if (!canRun) return;
+
+                canRun = false;
+
+                func(...args);
+
+                setTimeout(() => {
+                    canRun = true;
+                }, delay);
+            }
+        }
+
+        // function throttleTimeBased(func, delay) {
+        //     let lastExecuted = 0;
+
+        //     return function (...args) {
+        //         const now = Date.now();
+
+        //         if (now - lastExecuted >= delay) {
+        //             lastExecuted = now;
+        //             func(...args);
+        //         }
+        //     };
+        // }
+
+
+        const debounced = debounce(() => {
+            console.log("Debounced...");
+        }, 500);
+
+        const throttled = throttle(() => {
+            console.log("Throttled...");
+        }, 500);
+
+        document.getElementById("debounceBtn").addEventListener("click", debounced);
+        document.getElementById("throttleBtn").addEventListener("click", throttled);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-color: darkgray;
+    margin-top: 60px;
+}
+
+.container {
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+li {
+    padding: 10px;
+    cursor: pointer;
+    background: white;
+}
+
+li:hover {
+    background: #eee;
+}
+
+#loading {
+    margin: 10px 0;
+    color: green;
+}

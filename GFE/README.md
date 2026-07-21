@@ -25,3 +25,6 @@ This repository contains Great Frontend Engineer (GFE) questions and solutions.
 
 1. [Event Emitters](./eventEmitters.md)
 2. [Nested Comments](./nestedComments.md)
+3. [Vanilla Tic Tac Toe](./vanillaTicTacToe.md)
+4. [Debounced Typeahead / AutoComplete](/debouncedTypeAhead/index.html)
+5. [Throttle & Debounce](./throttleDebounce.md)

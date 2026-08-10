@@ -55,4 +55,4 @@ Javascript is single threaded and synchronous language. It executes code line by
 
 ```
 
-OUTPUT :- A, D, H, J, C, E, I, G, B, F
+OUTPUT :- A, E, I, F, H, G, B, C, D
